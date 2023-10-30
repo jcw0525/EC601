@@ -1,0 +1,9 @@
+classroom language learning tool via google streetview simulated immersion in navigation
+
+teacher creates a scenario for classroom exercise: a sequence of streetview panoramas with a point of interest described by landmark-based navigation instructions in foreign language
+student parses directions for each panorama and clicks on sequence of points of interests until arrives at final destination - score is a combination of total time minus misclicks
+
+ex.
+- french teacher creates a sequence of streetview panoramas in paris - from a hotel to the effiel tower - defined by a list of instructions ("take a left at the river" or "go towards the cinema")
+- teacher shares exrercise with students via link
+- each student goes through a "where's waldo" for the described point of interest in each panorama
