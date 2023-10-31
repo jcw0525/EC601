@@ -1,0 +1,7 @@
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\bin\Project 2.dll.config
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\bin\Project 2.dll
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\bin\Project 2.pdb
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\obj\Debug\Project 2.csproj.AssemblyReference.cache
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\obj\Debug\Project 2.csproj.CoreCompileInputs.cache
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\obj\Debug\Project 2.dll
+C:\Users\12105\Desktop\School Suffs\2023_3_Fall\ENG EC601\project2\Project 2\Project 2\obj\Debug\Project 2.pdb

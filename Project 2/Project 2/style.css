@@ -1,0 +1,21 @@
+﻿html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map,
+#pano {
+    float: left;
+    height: 80%;
+    width: 100%;
+}
+
+#load,
+#inputs,
+#outputs {
+    float: left;
+    height: 20%;
+    width: 33.3333%;
+}

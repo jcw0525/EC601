@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Language Navigator</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+</head>
+<body>
+    <div id="pano"></div>
+    <div id="map" hidden></div>
+    
+    <div>
+        <div id="load">
+            <label for="exercise"> Load Direction and Coordinates Set:</label><br>
+            <textarea id="exercise" name="exercise" rows="5" cols="50"></textarea><br>
+            <input type="submit" value="Load Exercise">
+        </div>
+        <div id="inputs">
+            <label for="direction"> Next Direction from Current Location:</label><br>
+            <textarea id="direction" name="direction" rows="5" cols="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </div>
+        <div id="outputs">
+            <p>test test outputs here test test</p>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuy13PCXQb6l-GPAhHvG1c4eBOSQMqZIM&callback=initialize&v=weekly"
+            defer></script>
+</body>
+</html>
