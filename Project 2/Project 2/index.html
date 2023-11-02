@@ -12,17 +12,23 @@
     
     <div>
         <div id="load">
-            <label for="exercise"> Load Direction and Coordinates Set:</label><br>
+            <script src="./index.js"></script>
+            <br><label for="exercise"> Load Direction and Coordinates Set:</label><br>
             <textarea id="exercise" name="exercise" rows="5" cols="50"></textarea><br>
-            <input type="submit" value="Load Exercise">
+            <button onclick="loadExercise()">Load Exercise</button>
+            <button id="toggleMap" onclick="toggleMap()">Toggle Map</button>
         </div>
         <div id="inputs">
-            <label for="direction"> Next Direction from Current Location:</label><br>
+            <script src="./index.js"></script>
+            <br><label for="direction"> Next Direction from Current Location:</label><br>
             <textarea id="direction" name="direction" rows="5" cols="50"></textarea><br>
-            <input type="submit" value="Submit">
+            <button onclick="addDirection()">Add Direction</button>
+            <button onclick="saveExercise()">Save Exercise</button>
         </div>
         <div id="outputs">
-            <p>test test outputs here test test</p>
+            <script src="./index.js"></script>
+            <p>Current Direction Set:</p>
+            <p id="output"></p>
         </div>
     </div>
 
