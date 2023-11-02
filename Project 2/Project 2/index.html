@@ -10,7 +10,7 @@
     <div id="pano"></div>
     <div id="map" hidden></div>
     
-    <div>
+    <div style="padding:40px;">
         <div id="load">
             <script src="./index.js"></script>
             <br><label for="exercise"> Load Direction and Coordinates Set:</label><br>
@@ -31,6 +31,14 @@
             <p id="output"></p>
             <button id="loadCheckpoint" onclick="loadCheckpoint()">Load Checkpoint</button>
         </div>
+        <div id="timer" hidden style="float:right;padding:20px 200px;">
+            <p id="timeDisplay">Current Time: </p>
+        </div>
+    </div>
+
+    <div style="padding-top:1000px;padding-left:200px;padding-bottom:50px;">
+        <p>README:</p>
+        <iframe src="./readme.txt" width="800" height="500"></iframe>
     </div>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuy13PCXQb6l-GPAhHvG1c4eBOSQMqZIM&callback=initialize&v=weekly"
